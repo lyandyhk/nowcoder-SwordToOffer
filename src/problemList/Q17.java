@@ -1,4 +1,13 @@
 package problemList;
+
+/**
+ * 
+ * @author Febiven
+ *	题目：输入两棵二叉树A，B，判断B是不是A的子结构。（ps：我们约定空树不是任意一个树的子结构）
+ *	
+ *	分析：
+ */
+
 class TreeNode {
     int val = 0;
     TreeNode left = null;
@@ -8,6 +17,7 @@ class TreeNode {
         this.val = val;
 
     }
+    
 }
 public class Q17 {
 	public static boolean HasSubtree(TreeNode root1,TreeNode root2) {
