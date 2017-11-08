@@ -12,7 +12,7 @@ import java.util.Set;
  * 思路：  递归  :交换其中两个的基础上继续交换下去
  * 		不重复:set
  * 		排好序:Collections.sort(List list);
- */
+ */ 
 public class Q27 {
 	public ArrayList<String> Permutation(String str) {
 		ArrayList<String> list = new ArrayList<String>();
